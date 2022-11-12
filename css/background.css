@@ -13,13 +13,14 @@
 
 .car1 {
    margin-top: -120px;
-   margin-left: 1000px;
+   position: absolute;
+   right: 0;
 }
 
 .car2 {
    position: absolute;
    margin-top: -300px;
-   margin-left: 1000px;
+   right: 0;
 }
 
 img {
@@ -29,7 +30,8 @@ img {
 }
 
 .finish {
-   margin-right: 1100px;
+   position: absolute;
+   left: 0;
 }
 
 .finish>img {
