@@ -27,3 +27,12 @@ img {
    width: 200px;
    height: auto;
 }
+
+.finish {
+   margin-right: 1100px;
+}
+
+.finish>img {
+   width: 85px;
+   margin-bottom: 215px;
+}
