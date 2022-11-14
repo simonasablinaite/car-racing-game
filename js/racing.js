@@ -7,7 +7,7 @@ let moveBy = 10;
 let auto1Position = 0;
 let auto2Position = 0;
 
-const victory = Math.ceil((window.innerWidth - 280) / moveBy);
+const victory = Math.ceil((window.innerWidth - 310) / moveBy);
 console.log(window.innerWidth);
 console.log(victory);
 
