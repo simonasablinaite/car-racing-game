@@ -11,16 +11,27 @@
    background-repeat: repeat-x;
 }
 
+.start {
+   position: absolute;
+   right: 100px;
+}
+
+.start>img {
+   margin-bottom: 205px;
+}
+
 .car1 {
    margin-top: -120px;
    position: absolute;
    right: 0;
+   z-index: 1;
 }
 
 .car2 {
    position: absolute;
    margin-top: -300px;
    right: 0;
+   z-index: 1;
 }
 
 img {
@@ -34,7 +45,15 @@ img {
    left: 0;
 }
 
+.start>img {
+   width: 100px;
+   height: 150px;
+   margin-bottom: 205px;
+}
+
 .finish>img {
-   width: 85px;
-   margin-bottom: 215px;
+   width: 80px;
+   height: 150px;
+   margin-bottom: 205px;
+   margin-left: 50px;
 }
